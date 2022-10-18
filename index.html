@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table_HM_2</title>
+</head>
+<body>
+  <style>
+    table, td {
+        border: 1px solid black;
+        text-align: center;
+        }
+    td {
+        height: 30px;
+        padding: 0px 30px;
+        background-color: rgb(255, 224, 51);
+        font-family: Arial;
+        font-size: 12px;
+    }
+  </style>
+    <table style="margin: auto">
+        <thead>
+            <tr>
+                <td style="background-color: rgb(78, 120, 247)" colspan="4">MY FIRST TABLE</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td style="background-color: rgb(78, 120, 247);">First cell</td>
+                <td style="background-color: rgb(78, 120, 247);">Second cell</td>
+                <td colspan="2" rowspan="3">6 cells merged together</td>
+            </tr>
+            <tr>
+                <td colspan="2">2 cells merged into one</td>
+            </tr>
+            <tr>
+                <td> 1st cell <br> 3rd row</td>
+                <td>2nd cell <br> 3rd row</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Do you like tables?</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
